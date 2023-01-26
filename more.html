@@ -24,23 +24,20 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span
-          ><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a
-        ></span>
+        <span>
+          <a href="setting.html">
+            <div class="dot"></div>
+            <i class="fas fa-cog fa-lg"></i>
+          </a>
+        </span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i>
-      Friends' Names Display
-      <i class="fas fa-chevron-right fa-sm"></i>
-    </a>
-
-    <main class="friends-screen">
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -49,32 +46,70 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">choi</h4>
-            <!-- <h6 class="user-component__subtitle">subtitle</h6> -->
+            <h6 class="user-component__subtitle">
+              +1 787-493-4219
+              <span class="user-component__exmark">!</span>
+            </h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
 
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://avatars.githubusercontent.com/u/72429247"
-              class="user-component__avater user-component__avater--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+      <div class="icon-rows">
+        <div class="icon-rows__icon">
+          <i class="far fa-calendar-alt"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-rows__icon">
+          <i class="fab fa-google-drive"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-rows__icon">
+          <i class="far fa-meh-blank"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-rows__icon">
+          <i class="fas fa-paint-roller"></i>
+          <span>Themes</span>
+        </div>
+      </div>
+      <div class="icon-rows">
+        <div class="icon-rows__icon">
+          <i class="fas fa-file-invoice"></i>
+          <span>Account</span>
+        </div>
+        <div class="icon-rows__icon">
+          <i class="far fa-comments"></i>
+          <span>Openchat</span>
+        </div>
+        <div class="icon-rows__icon"></div>
+        <div class="icon-rows__icon"></div>
+      </div>
+
+      <div class="more-suggest">
+        <div class="more-suggest__title">
+          <h4>Suggestions</h4>
+        </div>
+        <div class="more-suggest__icons">
+          <div class="more-suggest__icons--icon">
+            <div class="more-suggest__icons--image">
+              <i class="fas fa-quote-right"></i>
             </div>
+            <span class="more-suggest__icons--text">Kakao Story</span>
           </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-sm"></i>
+          <div class="more-suggest__icons--icon">
+            <div class="more-suggest__icons--image">
+              <i class="fas fa-quote-right"></i>
             </div>
+            <span class="more-suggest__icons--text">Kakao friends</span>
+          </div>
+          <div class="more-suggest__icons--icon">
+            <div class="more-suggest__icons--image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggest__icons--text">friends Gem</span>
           </div>
         </div>
       </div>

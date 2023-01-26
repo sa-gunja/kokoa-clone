@@ -53,3 +53,24 @@
   display: block;
   margin-bottom: 10px;
 }
+
+.user-component__subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-component__exmark {
+  border: 2px solid red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13px;
+  height: 13px;
+  text-align: center;
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 5px;
+}

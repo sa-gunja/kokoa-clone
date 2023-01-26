@@ -8,11 +8,16 @@
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
 @import "./components/bedge.css";
-
+@import "./components//icon-rows.css";
+@import "./components/alt-header.css";
 /* Screen */
 @import "./screen/login.css";
 @import "./screen/friends.css";
 @import "./screen/chats.css";
+@import "./screen/search.css";
+@import "./screen/more.css";
+@import "./screen/settings.css";
+@import "./screen/room.css";
 
 body {
   font-family: "Open Sans", sans-serif;
