@@ -92,3 +92,23 @@
 .open-post__heart span {
   margin-left: 5px;
 }
+
+@keyframes heartBeat {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(1.5);
+    color: rgb(241, 146, 162);
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}
+
+.fa-heart:hover {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}

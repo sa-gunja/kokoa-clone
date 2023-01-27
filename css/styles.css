@@ -8,8 +8,10 @@
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
 @import "./components/bedge.css";
-@import "./components//icon-rows.css";
+@import "./components/icon-rows.css";
 @import "./components/alt-header.css";
+@import "./components/no-mobile.css";
+
 /* Screen */
 @import "./screen/login.css";
 @import "./screen/friends.css";

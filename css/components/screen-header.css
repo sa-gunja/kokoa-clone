@@ -23,3 +23,16 @@
   right: -7px;
   bottom: 22px;
 }
+
+@keyframes spinCogAnimation {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: spinCogAnimation 3s linear infinite;
+}
